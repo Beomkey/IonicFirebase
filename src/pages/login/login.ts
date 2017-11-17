@@ -49,7 +49,7 @@ export class LoginPage {
     this.navCtrl.push('SignupPage');
   }
   goToResetPassword():void {
-    this.navCtrl.push('resetPasswordPage');
+    this.navCtrl.push('ResetPasswordPage');
   }
 
   ionViewDidLoad() {
